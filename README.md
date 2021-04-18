@@ -11,6 +11,7 @@ cd klayout
 git checkout 0.26
 -----------------------
 # Change the permission of build.sh
+ 
 $chmod u+x build.sh
 -------------below command will take utpo 3hrs or less--------
 $./build.sh
