@@ -22,8 +22,8 @@ $./build.sh
 --------------change the permission of excecutable binary--------  
 $ chmod u+x bin-release/klayout  
 
---------------In your Klayout directory-----------------------  
-Create a file with the name Klayout using any editor and add the below line   
+*--------------In your Klayout directory-----------------------* 
+### Create a file with the name Klayout using any editor and add the below line   
 
 $vim klayout  
 
@@ -34,7 +34,7 @@ export LD_LIBRARY_PATH=$<path to location>/.klayout/bin-release:$LD_LIBRARY_PATH
 klayout -e  
 
 --------------------------------------------------------------------  
-# In .bashrc put the path of the klayout file which you had created  
+### In .bashrc put the path of the klayout file which you had created  
 
 export PATH='"'$<path to location>/.klayout:$PATH   
 
