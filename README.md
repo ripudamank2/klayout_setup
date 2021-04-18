@@ -8,7 +8,7 @@ libqt<latest_version>-dev-bin libqt<latest_version>-dev
 Command : git clone <git_address> <directory>   \ 
 git clone https://github.com/klayoutmatthias/klayout klayout  \
 cd klayout \
-git checkout 0.26 \
+git checkout 0.26  \
 -----------------------
 # Change the permission of build.sh
  
