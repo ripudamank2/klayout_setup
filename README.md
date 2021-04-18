@@ -6,9 +6,9 @@ sudo apt-get insatll python3 python3-dev ruby ruby-dev build-essential libz-dev 
 Search package ---> apt-cache search <package_name>   
 libqt<latest_version>-dev-bin libqt<latest_version>-dev  
 
----------------------------------------------------------------------- \ 
+---------------------------------------------------------------------- 
   
-Command : git clone <git_address>  <directory>     
+Command : git clone <git_address><directory>     
 
 git clone https://github.com/klayoutmatthias/klayout klayout   
 
