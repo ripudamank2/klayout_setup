@@ -13,11 +13,11 @@ git clone https://github.com/klayoutmatthias/klayout klayout  \
 cd klayout  \
 git checkout 0.26   \
 -----------------------    
-# Change the permission of build.sh  \
+## Change the permission of build.sh  \
  
-$chmod u+x build.sh
+$chmod u+x build.sh  
 -------------below command will take utpo 3hrs or less--------
-$./build.sh
+$./build.sh  
 
 --------------change the permission of excecutable binary--------
 $ chmod u+x bin-release/klayout
