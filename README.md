@@ -1,8 +1,8 @@
 # klayout_setup
-# Install the dependent packages for Klayout 
-sudo apt-get insatll python3 python3-dev ruby ruby-dev build-essential libz-dev git
-Search package ---> apt-cache search <package_name> 
-libqt<latest_version>-dev-bin libqt<latest_version>-dev
+# Install the dependent packages for Klayout   
+sudo apt-get insatll python3 python3-dev ruby ruby-dev build-essential libz-dev git  
+Search package ---> apt-cache search <package_name>   
+libqt<latest_version>-dev-bin libqt<latest_version>-dev  
 
 ---------------------------------------------------------------------- \
 Command : git clone <git_address> <directory>   \ 
