@@ -16,21 +16,21 @@ git checkout 0.26   \
 ## Change the permission of build.sh  \
  
 $chmod u+x build.sh  
--------------below command will take utpo 3hrs or less--------
+-------------below command will take utpo 3hrs or less--------  
 $./build.sh  
 
---------------change the permission of excecutable binary--------
-$ chmod u+x bin-release/klayout
+--------------change the permission of excecutable binary--------  
+$ chmod u+x bin-release/klayout  
 
---------------In your Klayout directory-----------------------
-Create a file with the name Klayout using any editor and add the below line 
-vim klayout
-export PATH=$<path to location>/.klayout/bin-release:$PATH
-export LD_LIBRARY_PATH=$<path to location>/.klayout/bin-release:$LD_LIBRARY_PATH
-klayout -e
---------------------------------------------------------------------
-# In .bashrc put the path of the klayout file which you had created
- export PATH='"'$<path to location>/.klayout:$PATH 
- $source .bashrc 
+--------------In your Klayout directory-----------------------  
+Create a file with the name Klayout using any editor and add the below line   
+vim klayout  
+export PATH=$<path to location>/.klayout/bin-release:$PATH  
+export LD_LIBRARY_PATH=$<path to location>/.klayout/bin-release:$LD_LIBRARY_PATH  
+klayout -e  
+--------------------------------------------------------------------  
+# In .bashrc put the path of the klayout file which you had created  
+ export PATH='"'$<path to location>/.klayout:$PATH   
+ $source .bashrc   
   
   Finish Installation
