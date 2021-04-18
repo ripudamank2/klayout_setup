@@ -9,7 +9,7 @@ Command : git clone <git_address> <directory>   \
 git clone https://github.com/klayoutmatthias/klayout klayout  \
 cd klayout  \
 git checkout 0.26   \
------------------------    \
+-----------------------    
 # Change the permission of build.sh  \
  
 $chmod u+x build.sh
